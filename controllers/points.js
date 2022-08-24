@@ -12,10 +12,10 @@ exports.cctest = (req, res) => {
 };
 
 exports.ccget = (req, res) => {
-  console.log("hello end point hitted", req.body);
   //   res.send("working");
   res
     .status(200)
     .send("Hello, Server is running good, have nice day. ->FROM GITHUB<-")
     .end();
+  console.log("hello end point hitted", req.body);
 };
